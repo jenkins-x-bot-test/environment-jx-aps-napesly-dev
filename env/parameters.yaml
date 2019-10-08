@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:jx-aps-napesly/adminUser:password
+  username: admin
+dashboardAuthID: vault:jx-aps-napesly:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:jx-aps-napesly:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:jx-aps-napesly/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:jx-aps-napesly/prow:hmacToken
